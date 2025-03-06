@@ -49,5 +49,5 @@ jobs:
       - name: Build and push Docker image
         run: |
           docker build -t my-python-app .
-          docker tag my-python-app <your-dockerhub-username>/my-python-app:latest
-          docker push pratham7049/my-python-app:latest
+          docker tag my-python-app pratham0412/my-python-app:latest
+          docker push pratham0412/my-python-app:latest
